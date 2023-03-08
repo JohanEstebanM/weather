@@ -70,8 +70,8 @@
   justify-content: center;
   align-items: center;
   background: var(--bg-color);
-  height: 98vh;
-  width: 99%;
+  height: 96vh;
+  width: 98%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -94,6 +94,8 @@
   }
   .div__main {
     flex-direction: column-reverse;
+    height: 94vh;
+    width: 97%;
   }
   .button__scale {
     font-size: 25px;
