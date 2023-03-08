@@ -87,6 +87,10 @@
 .button__scale {
   border-radius: 20px;
 }
+.infoGeneral{
+  display:flex;
+  flex-direction: column;
+}
 
 @media (min-width: 320px) {
   p {
@@ -94,12 +98,10 @@
   }
   .div__main {
     flex-direction: column-reverse;
-    height: 94vh;
-    width: 97%;
   }
   .button__scale {
     font-size: 25px;
-    margin-top: 5px;
+    margin-top: 15px;
   }
   .temperature {
     display: flex;
@@ -111,6 +113,11 @@
   }
   .temperature p {
     font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .infoGeneral {
+    align-items: center;
   }
   .infoGeneral p {
     font-size: 16px;
@@ -123,6 +130,8 @@
   }
   .div__main {
     flex-direction: row;
+    height: 98vh;
+    width: 99%;
     gap: 25px;
   }
   .button__scale {
@@ -137,6 +146,9 @@
   }
   .temperature p {
     font-size: 60px;
+  }
+  .infoGeneral {
+    align-items: flex-start;
   }
   .infoGeneral p {
     font-size: 20px;
