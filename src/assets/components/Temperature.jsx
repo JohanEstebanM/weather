@@ -41,9 +41,9 @@ const Temperature = () => {
     }
   };
 
-  if (temperature < 285.65) {
+  if (temperature < 289.15) {
     color = 'radial-gradient(circle,rgba(147, 247, 255, 1) 50%,rgba(70, 95, 255,1)100%)';
-  } else if (temperature < 292.15) {
+  } else if (temperature < 299.15) {
     color = 'radial-gradient(circle,rgba(251, 206, 177, 1) 50%,rgba(255, 127,0,1)100%)';
   } else {
     color = 'radial-gradient(circle,rgba(255, 185, 162, 1) 50%,rgba(255, 72, 75,1)100%)';
